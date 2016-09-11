@@ -455,6 +455,10 @@
   <project path="vendor/du" name="android_vendor_du" remote="du" revision="n" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" name="arm-eabi-4.8" remote="du" revision="n" />
 
+ <!-- device -->
+ <project path="device/qcom/common" name="android_device_qcom_common" revision="m-caf" remote="du" />
+ <project path="device/qcom/sepolicy" name="android_device_qcom_sepolicy" revision="m-caf" remote="du" />
+
   <!--system-->
   <project path="system/bt" name="android_system_bt" remote="du" revision="n" />
   <project path="system/core" name="android_system_core" remote="du" revision="n" />

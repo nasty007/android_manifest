@@ -456,8 +456,8 @@
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" name="arm-eabi-4.8" remote="du" revision="n" />
 
  <!-- device -->
- <project path="device/qcom/common" name="android_device_qcom_common" revision="m-caf" remote="du" />
- <project path="device/qcom/sepolicy" name="android_device_qcom_sepolicy" revision="m-caf" remote="du" />
+ <project path="device/qcom/common" name="DirtyNougats/android_device_qcom_common" revision="n-caf" remote="github" />
+ <project path="device/qcom/sepolicy" name="DirtyNougats/android_device_qcom_sepolicy" revision="n-caf" remote="github" />
 
   <!--system-->
   <project path="system/bt" name="android_system_bt" remote="du" revision="n" />
@@ -482,13 +482,13 @@
   <project path="hardware/broadcom/wlan" name="android_hardware_broadcom_wlan" remote="du" revision="n" />
   <project path="hardware/libhardware" name="android_hardware_libhardware" remote="du" revision="n" />
   <project path="hardware/libhardware_legacy" name="android_hardware_libhardware_legacy" remote="du" revision="n" />
-  <project path="hardware/qcom/audio" name="android_hardware_qcom_audio" remote="du" revision="n" />
+  <project path="hardware/qcom/audio" name="CyanogenMod/android_hardware_qcom_audio" remote="github" revision="staging/cm-14.0-caf-8916" />
   <project path="hardware/qcom/bt" name="android_hardware_qcom_bt" remote="du" revision="n" />
   <project path="hardware/qcom/camera" name="android_hardware_qcom_camera" remote="du" revision="n" />
-  <project path="hardware/qcom/display" name="android_hardware_qcom_display" remote="du" revision="n" />
+  <project path="hardware/qcom/display" name="CyanogenMod/android_hardware_qcom_display" remote="github" revision="staging/cm-14.0-caf-8916" />
   <project path="hardware/qcom/gps" name="android_hardware_qcom_gps" remote="du" revision="n" />
   <project path="hardware/qcom/keymaster" name="android_hardware_qcom_keymaster" remote="du" revision="n" />
-  <project path="hardware/qcom/media" name="android_hardware_qcom_media" remote="du" revision="n" />
+  <project path="hardware/qcom/media" name="CyanogenMod/android_hardware_qcom_media" remote="github" revision="staging/cm-14.0-caf-8916" />
   <project path="hardware/qcom/power" name="android_hardware_qcom_power" remote="du" revision="n" />
   <project path="hardware/qcom/wlan" name="android_hardware_qcom_wlan" remote="du" revision="n" />
   <project path="hardware/ril" name="android_hardware_ril" remote="du" revision="n" />

@@ -25,7 +25,6 @@
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
-  <project path="bootable/recovery" name="platform/bootable/recovery" groups="pdk" />
   <project path="cts" name="platform/cts" groups="cts,pdk-cw-fs,pdk-fs" />
   <project path="dalvik" name="platform/dalvik" groups="pdk-cw-fs,pdk-fs" />
   <project path="developers/build" name="platform/developers/build" />
@@ -443,10 +442,11 @@
   <!-- DU REPOS -->
   <!-- general -->
   <project path="art" name="android_art" remote="du" revision="n" />
-  <project path="bionic" name="android_bionic" remote="du" revision="n" />
+  <project path="bionic" name="DirtyNougats/android_bionic" remote="github" revision="n-caf" />
   <project path="build" name="DirtyNougats/android_build" remote="github" revision="n-caf" >
   <copyfile src="core/root.mk" dest="Makefile" />
   </project>
+  <project path="bootable/recovery" name="DirtyNougats/android_bootable_recovery" remote="github" revision="n-caf" />
   <project path="build/kati" name="android_build_kati" remote="du" revision="n" />
   <project path="development" name="android_development" remote="du" revision="n" />
   <project path="external/skia" name="android_external_skia" remote="du" revision="n" />
@@ -460,18 +460,18 @@
  <project path="device/qcom/sepolicy" name="DirtyNougats/android_device_qcom_sepolicy" revision="n-caf" remote="github" />
 
   <!--system-->
-  <project path="system/bt" name="android_system_bt" remote="du" revision="n" />
-  <project path="system/core" name="android_system_core" remote="du" revision="n" />
+  <project path="system/bt" name="DirtyNougats/android_system_bt" remote="github" revision="n-caf" />
+  <project path="system/core" name="DirtyNougats/android_system_core" remote="github" revision="n-caf" />
   <project path="system/extras" name="android_system_extras" remote="du" revision="n" />
   <project path="system/media" name="android_system_media" remote="du" revision="n" />
   <project path="system/netd" name="android_system_netd" remote="du" revision="n" />
   <project path="system/sepolicy" name="android_system_sepolicy" remote="du" revision="n" />
-  <project path="system/vold" name="android_system_vold" remote="du" revision="n" />
+  <project path="system/vold" name="DirtyNougats/android_system_vold" remote="github" revision="n-caf" />
 
   <!--frameworks-->
   <project path="frameworks/av" name="android_frameworks_av" remote="du" revision="n" />
   <project path="frameworks/base" name="android_frameworks_base" remote="du" revision="n" />
-  <project path="frameworks/native" name="android_frameworks_native" remote="du" revision="n" />
+  <project path="frameworks/native" name="DirtyNougats/android_frameworks_native" remote="github" revision="n-caf" />
   <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="du" revision="n" />
   <project path="frameworks/opt/net/ims" name="android_frameworks_opt_net_ims" remote="du" revision="n" />
   <project path="frameworks/opt/net/wifi" name="android_frameworks_opt_net_wifi" remote="du" revision="n" />
@@ -481,14 +481,17 @@
   <project path="hardware/broadcom/libbt" name="android_hardware_broadcom_libbt" remote="du" revision="n" />
   <project path="hardware/broadcom/wlan" name="android_hardware_broadcom_wlan" remote="du" revision="n" />
   <project path="hardware/libhardware" name="android_hardware_libhardware" remote="du" revision="n" />
-  <project path="hardware/libhardware_legacy" name="android_hardware_libhardware_legacy" remote="du" revision="n" />
-  <project path="hardware/qcom/audio" name="CyanogenMod/android_hardware_qcom_audio" remote="github" revision="staging/cm-14.0-caf-8916" />
+  <project path="hardware/libhardware_legacy" name="DirtyNougats/android_hardware_libhardware_legacy" remote="github" revision="n-caf" />
+  <project path="hardware/qcom/audio/default" name="CyanogenMod/android_hardware_qcom_audio" remote="github" revision="staging/cm-14.0" />
+  <project path="hardware/qcom/audio-caf/msm8916" name="CyanogenMod/android_hardware_qcom_audio" remote="github" revision="staging/cm-14.0-caf-8916" />
   <project path="hardware/qcom/bt" name="android_hardware_qcom_bt" remote="du" revision="n" />
   <project path="hardware/qcom/camera" name="android_hardware_qcom_camera" remote="du" revision="n" />
-  <project path="hardware/qcom/display" name="CyanogenMod/android_hardware_qcom_display" remote="github" revision="staging/cm-14.0-caf-8916" />
+  <project path="hardware/qcom/display" name="CyanogenMod/android_hardware_qcom_display" remote="github" revision="staging/cm-14.0" />
+  <project path="hardware/qcom/display-caf/msm8916" name="CyanogenMod/android_hardware_qcom_display" remote="github" revision="staging/cm-14.0-caf-8916" />
   <project path="hardware/qcom/gps" name="android_hardware_qcom_gps" remote="du" revision="n" />
-  <project path="hardware/qcom/keymaster" name="android_hardware_qcom_keymaster" remote="du" revision="n" />
-  <project path="hardware/qcom/media" name="CyanogenMod/android_hardware_qcom_media" remote="github" revision="staging/cm-14.0-caf-8916" />
+  <project path="hardware/qcom/keymaster" name="DirtyNougats/android_hardware_qcom_keymaster" remote="github" revision="n-caf" />
+  <project path="hardware/qcom/media" name="CyanogenMod/android_hardware_qcom_media" remote="github" revision="staging/cm-14.0" />
+  <project path="hardware/qcom/media-caf/msm8916" name="CyanogenMod/android_hardware_qcom_media" remote="github" revision="staging/cm-14.0-caf-8916" />
   <project path="hardware/qcom/power" name="android_hardware_qcom_power" remote="du" revision="n" />
   <project path="hardware/qcom/wlan" name="android_hardware_qcom_wlan" remote="du" revision="n" />
   <project path="hardware/ril" name="android_hardware_ril" remote="du" revision="n" />

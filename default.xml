@@ -461,11 +461,11 @@
 
   <!--system-->
   <project path="system/bt" name="DirtyNougats/android_system_bt" remote="github" revision="n-caf" />
-  <project path="system/core" name="CyanogenMod/android_system_sepolicy" remote="github" revision="staging/cm-14.0" />
+  <project path="system/core" name="DirtyNougats/android_system_core" remote="github" revision="n-caf" />
   <project path="system/extras" name="android_system_extras" remote="du" revision="n" />
   <project path="system/media" name="android_system_media" remote="du" revision="n" />
   <project path="system/netd" name="android_system_netd" remote="du" revision="n" />
-  <project path="system/sepolicy" name="android_system_sepolicy" remote="du" revision="n" />
+  <project path="system/sepolicy" name="Cyanogenmod/android_system_sepolicy" remote="github" revision="staging/cm-14.0" />
   <project path="system/vold" name="DirtyNougats/android_system_vold" remote="github" revision="n-caf" />
 
   <!--frameworks-->

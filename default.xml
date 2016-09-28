@@ -460,7 +460,7 @@
  <project path="device/qcom/sepolicy" name="CyanogenMod/android_device_qcom_sepolicy" revision="staging/cm-14.0" remote="github" />
 
   <!--system-->
-  <project path="system/bt" name="DirtyNougats/android_system_bt" remote="github" revision="n-caf" />
+  <project path="system/bt" name="DirtyUnicorns/android_system_bt" remote="github" revision="n" />
   <project path="system/core" name="DirtyNougats/android_system_core" remote="github" revision="n-caf" />
   <project path="system/extras" name="android_system_extras" remote="du" revision="n" />
   <project path="system/media" name="android_system_media" remote="du" revision="n" />

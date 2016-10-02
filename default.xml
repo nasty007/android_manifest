@@ -457,7 +457,7 @@
 
  <!-- device -->
  <project path="device/qcom/common" name="DirtyNougats/android_device_qcom_common" revision="n-caf" remote="github" />
- <project path="device/qcom/sepolicy" name="CyanogenMod/android_device_qcom_sepolicy" revision="staging/cm-14.0" remote="github" />
+ <project path="device/qcom/sepolicy" name="CyanogenMod/android_device_qcom_sepolicy" revision="cm-14.0" remote="github" />
 
   <!--system-->
   <project path="system/bt" name="DirtyUnicorns/android_system_bt" remote="github" revision="n" />
@@ -465,7 +465,7 @@
   <project path="system/extras" name="android_system_extras" remote="du" revision="n" />
   <project path="system/media" name="android_system_media" remote="du" revision="n" />
   <project path="system/netd" name="android_system_netd" remote="du" revision="n" />
-  <project path="system/sepolicy" name="Cyanogenmod/android_system_sepolicy" remote="github" revision="staging/cm-14.0" />
+  <project path="system/sepolicy" name="Cyanogenmod/android_system_sepolicy" remote="github" revision="cm-14.0" />
   <project path="system/vold" name="DirtyNougats/android_system_vold" remote="github" revision="n-caf" />
 
   <!--frameworks-->
@@ -482,16 +482,16 @@
   <project path="hardware/broadcom/wlan" name="android_hardware_broadcom_wlan" remote="du" revision="n" />
   <project path="hardware/libhardware" name="android_hardware_libhardware" remote="du" revision="n" />
   <project path="hardware/libhardware_legacy" name="DirtyNougats/android_hardware_libhardware_legacy" remote="github" revision="n-caf" />
-  <project path="hardware/qcom/audio/default" name="CyanogenMod/android_hardware_qcom_audio" remote="github" revision="staging/cm-14.0" />
-  <project path="hardware/qcom/audio-caf/msm8974" name="CyanogenMod/android_hardware_qcom_audio" remote="github" revision="staging/cm-14.0-caf-8974" />
+  <project path="hardware/qcom/audio/default" name="CyanogenMod/android_hardware_qcom_audio" remote="github" revision="cm-14.0" />
+  <project path="hardware/qcom/audio-caf/msm8974" name="CyanogenMod/android_hardware_qcom_audio" remote="github" revision="cm-14.0-caf-8974" />
   <project path="hardware/qcom/bt" name="android_hardware_qcom_bt" remote="du" revision="n" />
   <project path="hardware/qcom/camera" name="android_hardware_qcom_camera" remote="du" revision="n" />
-  <project path="hardware/qcom/display" name="CyanogenMod/android_hardware_qcom_display" remote="github" revision="staging/cm-14.0" />
-  <project path="hardware/qcom/display-caf/msm8974" name="CyanogenMod/android_hardware_qcom_display" remote="github" revision="staging/cm-14.0-caf-8974" />
+  <project path="hardware/qcom/display" name="CyanogenMod/android_hardware_qcom_display" remote="github" revision="cm-14.0" />
+  <project path="hardware/qcom/display-caf/msm8974" name="CyanogenMod/android_hardware_qcom_display" remote="github" revision="cm-14.0-caf-8974" />
   <project path="hardware/qcom/gps" name="android_hardware_qcom_gps" remote="du" revision="n" />
   <project path="hardware/qcom/keymaster" name="DirtyNougats/android_hardware_qcom_keymaster" remote="github" revision="n-caf" />
-  <project path="hardware/qcom/media" name="CyanogenMod/android_hardware_qcom_media" remote="github" revision="staging/cm-14.0" />
-  <project path="hardware/qcom/media-caf/msm8974" name="CyanogenMod/android_hardware_qcom_media" remote="github" revision="staging/cm-14.0-caf-8974" />
+  <project path="hardware/qcom/media" name="CyanogenMod/android_hardware_qcom_media" remote="github" revision="cm-14.0" />
+  <project path="hardware/qcom/media-caf/msm8974" name="CyanogenMod/android_hardware_qcom_media" remote="github" revision="cm-14.0-caf-8974" />
   <project path="hardware/qcom/power" name="android_hardware_qcom_power" remote="du" revision="n" />
   <project path="hardware/qcom/wlan" name="android_hardware_qcom_wlan" remote="du" revision="n" />
   <project path="hardware/ril" name="android_hardware_ril" remote="du" revision="n" />
@@ -520,6 +520,6 @@
     <!--extra packages-->
   <project path="external/stlport" name="CyanogenMod/android_external_stlport" remote="github" revision="cm-14.0" />
   <project path="external/sony/boringssl-compat" name="CyanogenMod/android_external_sony_boringssl-compat" remote="github" revision="cm-14.0" /> 
-  <project path="external/connectivity" name="CyanogenMod/android_external_connectivity" remote="github" revision="staging/cm-14.0"/>
+  <project path="external/connectivity" name="CyanogenMod/android_external_connectivity" remote="github" revision="cm-14.0"/>
 
 </manifest>

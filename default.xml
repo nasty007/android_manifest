@@ -460,12 +460,12 @@
  <project path="device/qcom/sepolicy" name="CyanogenMod/android_device_qcom_sepolicy" revision="cm-14.0" remote="github" />
 
   <!--system-->
-  <project path="system/bt" name="DirtyUnicorns/android_system_bt" remote="github" revision="n" />
-  <project path="system/core" name="DirtyNougats/android_system_core" remote="github" revision="n-caf" />
+  <project path="system/bt" name="GalaticStryder/system_bt" remote="github" revision="nougat-caf" />
+  <project path="system/core" name="GalaticStryder/system_core" remote="github" revision="nougat-caf" />
   <project path="system/extras" name="android_system_extras" remote="du" revision="n" />
   <project path="system/media" name="android_system_media" remote="du" revision="n" />
   <project path="system/netd" name="android_system_netd" remote="du" revision="n" />
-  <project path="system/sepolicy" name="Cyanogenmod/android_system_sepolicy" remote="github" revision="cm-14.0" />
+  <project path="system/sepolicy" name="GalaticStryder/system_sepolicy" remote="github" revision="nougat-caf" />
   <project path="system/vold" name="DirtyNougats/android_system_vold" remote="github" revision="n-caf" />
 
   <!--frameworks-->
@@ -478,22 +478,22 @@
   <project path="frameworks/support" name="android_frameworks_support" remote="du" revision="n" />
 
   <!--hardware-->
-  <project path="hardware/broadcom/libbt" name="android_hardware_broadcom_libbt" remote="du" revision="n" />
+  <project path="hardware/broadcom/libbt" name="GalaticStryder/hardware_broadcom_libbt" remote="github" revision="nougat-caf" />
   <project path="hardware/broadcom/wlan" name="android_hardware_broadcom_wlan" remote="du" revision="n" />
   <project path="hardware/libhardware" name="android_hardware_libhardware" remote="du" revision="n" />
   <project path="hardware/libhardware_legacy" name="DirtyNougats/android_hardware_libhardware_legacy" remote="github" revision="n-caf" />
   <project path="hardware/qcom/audio/default" name="CyanogenMod/android_hardware_qcom_audio" remote="github" revision="cm-14.0" />
-  <project path="hardware/qcom/audio-caf/msm8974" name="CyanogenMod/android_hardware_qcom_audio" remote="github" revision="cm-14.0-caf-8974" />
+  <project path="hardware/qcom/audio-caf/msm8974" name="GalaticStryder/android_hardware_qcom_audio" remote="github" revision="nougat-caf-8974" />
   <project path="hardware/qcom/bt" name="android_hardware_qcom_bt" remote="du" revision="n" />
   <project path="hardware/qcom/camera" name="android_hardware_qcom_camera" remote="du" revision="n" />
   <project path="hardware/qcom/display" name="CyanogenMod/android_hardware_qcom_display" remote="github" revision="cm-14.0" />
-  <project path="hardware/qcom/display-caf/msm8974" name="CyanogenMod/android_hardware_qcom_display" remote="github" revision="cm-14.0-caf-8974" />
+  <project path="hardware/qcom/display-caf/msm8974" name="GalaticStryder/android_hardware_qcom_display" remote="github" revision="nougat-caf-8974" />
   <project path="hardware/qcom/gps" name="android_hardware_qcom_gps" remote="du" revision="n" />
   <project path="hardware/qcom/keymaster" name="DirtyNougats/android_hardware_qcom_keymaster" remote="github" revision="n-caf" />
-  <project path="hardware/qcom/media" name="CyanogenMod/android_hardware_qcom_media" remote="github" revision="cm-14.0" />
-  <project path="hardware/qcom/media-caf/msm8974" name="CyanogenMod/android_hardware_qcom_media" remote="github" revision="cm-14.0-caf-8974" />
+  <project path="hardware/qcom/media" name="GalaticStryder/hardware_qcom_media" remote="github" revision="nougat-caf-8974" />
+  <project path="hardware/qcom/media-caf/msm8974" name="GalaticStryder/android_hardware_qcom_media" remote="github" revision="nougat-caf-8974" />
   <project path="hardware/qcom/power" name="android_hardware_qcom_power" remote="du" revision="n" />
-  <project path="hardware/qcom/wlan" name="android_hardware_qcom_wlan" remote="du" revision="n" />
+  <project path="hardware/qcom/wlan" name="GalaticStryder/hardware_qcom_wlan" remote="github" revision="nougat-caf-8974" />
   <project path="hardware/ril" name="android_hardware_ril" remote="du" revision="n" />
   <project path="hardware/qcom/msm8x74" name="nasty007/android_hardware_qcom_msm8x74" remote="github" revision="n" />
 

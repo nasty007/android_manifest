@@ -493,7 +493,7 @@
   <project path="hardware/qcom/media" name="GalaticStryder/hardware_qcom_media" remote="github" revision="nougat-caf-8974" />
   <project path="hardware/qcom/media-caf/msm8974" name="GalaticStryder/android_hardware_qcom_media" remote="github" revision="nougat-caf-8974" />
   <project path="hardware/qcom/power" name="android_hardware_qcom_power" remote="du" revision="n" />
-  <project path="hardware/qcom/wlan" name="GalaticStryder/hardware_qcom_wlan" remote="github" revision="nougat-caf" />
+  <project path="hardware/qcom/wlan" name="GalaticStryder/hardware_qcom_wlan" remote="github" revision="nougat-caf-8974" />
   <project path="hardware/ril" name="android_hardware_ril" remote="du" revision="n" />
   <project path="hardware/qcom/msm8x74" name="nasty007/android_hardware_qcom_msm8x74" remote="github" revision="n" />
 

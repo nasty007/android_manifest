@@ -443,7 +443,7 @@
   <!-- general -->
   <project path="art" name="android_art" remote="du" revision="n" />
   <project path="bionic" name="DirtyNougats/android_bionic" remote="github" revision="n-caf" />
-  <project path="build" name="DirtyNougats/android_build" remote="github" revision="n-caf" >
+  <project path="build" name="nobe1976/android_build" remote="github" revision="Dirty-N" >
   <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="bootable/recovery" name="DirtyNougats/android_bootable_recovery" remote="github" revision="n-caf" />
